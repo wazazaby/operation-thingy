@@ -19,7 +19,6 @@ func TestThingy(t *testing.T) {
 	worker.Upsert("test", "whatsup")
 	worker.Delete("sdf")
 	worker.Delete("test")
-	worker.Delete("bingo")
 
 	fmt.Println(worker.Done())
 }
